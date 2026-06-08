@@ -18,8 +18,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://hirwapatrick.vercel.app",
-    credentials: true,
+    origin: "https://hirwapatrick.vercel.app"
   }),
 );
 app.use(express.json());
